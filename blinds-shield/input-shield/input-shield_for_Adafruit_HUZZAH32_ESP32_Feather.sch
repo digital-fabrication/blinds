@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.2">
+<eagle version="9.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -374,58 +374,6 @@
 <rectangle x1="12.746" y1="-0.254" x2="13.254" y2="0.254" layer="51"/>
 <rectangle x1="14.746" y1="-0.254" x2="15.254" y2="0.254" layer="51"/>
 </package>
-<package name="FIDUCIAL_1MM">
-<smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
-<wire x1="-0.75" y1="0" x2="0" y2="0.75" width="0.5" layer="29" curve="-90"/>
-<wire x1="0" y1="0.75" x2="0.75" y2="0" width="0.5" layer="29" curve="-90"/>
-<wire x1="0.75" y1="0" x2="0" y2="-0.75" width="0.5" layer="29" curve="-90"/>
-<wire x1="0" y1="-0.75" x2="-0.75" y2="0" width="0.5" layer="29" curve="-90"/>
-<wire x1="-0.75" y1="0" x2="0" y2="0.75" width="0.5" layer="41" curve="-90"/>
-<wire x1="0" y1="0.75" x2="0.75" y2="0" width="0.5" layer="41" curve="-90"/>
-<wire x1="0.75" y1="0" x2="0" y2="-0.75" width="0.5" layer="41" curve="-90"/>
-<wire x1="0" y1="-0.75" x2="-0.75" y2="0" width="0.5" layer="41" curve="-90"/>
-<wire x1="-0.75" y1="0" x2="0" y2="0.75" width="0.5" layer="39" curve="-90"/>
-<wire x1="0" y1="0.75" x2="0.75" y2="0" width="0.5" layer="39" curve="-90"/>
-<wire x1="0.75" y1="0" x2="0" y2="-0.75" width="0.5" layer="39" curve="-90"/>
-<wire x1="0" y1="-0.75" x2="-0.75" y2="0" width="0.5" layer="39" curve="-90"/>
-</package>
-<package name="FIDUCIAL-1X2.5">
-<circle x="0" y="0" radius="1.1" width="1.2" layer="29"/>
-<circle x="0" y="0" radius="1.1" width="1.2" layer="39"/>
-<circle x="0" y="0" radius="1.1" width="1.2" layer="41"/>
-<smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
-<text x="-0.508" y="-1.016" size="0.4064" layer="25">1mm</text>
-</package>
-<package name="PASS-ROUND">
-<description>&lt;b&gt;FIDUCIAL MARKER&lt;/b&gt;&lt;p&gt;
-round, layers 1 + 16 + 21 + 39 + 49</description>
-<wire x1="0" y1="0.508" x2="0.508" y2="0" width="1.4224" layer="49" curve="-90" cap="flat"/>
-<wire x1="-0.508" y1="0" x2="0" y2="-0.508" width="1.4224" layer="49" curve="90" cap="flat"/>
-<wire x1="0" y1="0.508" x2="0.508" y2="0" width="1.4224" layer="49" curve="-90" cap="flat"/>
-<wire x1="-0.508" y1="0" x2="0" y2="-0.508" width="1.4224" layer="49" curve="90" cap="flat"/>
-<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="49"/>
-<wire x1="0" y1="2.54" x2="0" y2="1.27" width="0.1524" layer="49"/>
-<wire x1="0" y1="-2.54" x2="0" y2="-1.27" width="0.1524" layer="49"/>
-<wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.1524" layer="49"/>
-<wire x1="-2.54" y1="0" x2="-1.524" y2="0" width="0.1524" layer="1"/>
-<wire x1="0" y1="2.54" x2="0" y2="1.524" width="0.1524" layer="1"/>
-<wire x1="0" y1="-2.54" x2="0" y2="-1.524" width="0.1524" layer="1"/>
-<wire x1="2.54" y1="0" x2="1.524" y2="0" width="0.1524" layer="1"/>
-<wire x1="-2.54" y1="0" x2="-1.524" y2="0" width="0.1524" layer="16"/>
-<wire x1="0" y1="2.54" x2="0" y2="1.524" width="0.1524" layer="16"/>
-<wire x1="0" y1="-2.54" x2="0" y2="-1.524" width="0.1524" layer="16"/>
-<wire x1="2.54" y1="0" x2="1.524" y2="0" width="0.1524" layer="16"/>
-<wire x1="0.0254" y1="0.5842" x2="0.5842" y2="0.0254" width="1.1176" layer="16" curve="-90" cap="flat"/>
-<wire x1="0.0254" y1="0.5842" x2="0.5842" y2="0.0254" width="1.1176" layer="1" curve="-90" cap="flat"/>
-<wire x1="-0.5842" y1="-0.0254" x2="-0.0254" y2="-0.5842" width="1.1176" layer="16" curve="90" cap="flat"/>
-<wire x1="-0.5842" y1="-0.0254" x2="-0.0254" y2="-0.5842" width="1.1176" layer="1" curve="90" cap="flat"/>
-<circle x="0" y="0" radius="1.27" width="0.1524" layer="49"/>
-<circle x="0" y="0" radius="1.27" width="0.1524" layer="49"/>
-<circle x="0" y="0" radius="1.27" width="0.1524" layer="1"/>
-<circle x="0" y="0" radius="1.27" width="0.1524" layer="16"/>
-<circle x="0" y="0" radius="2.54" width="0" layer="29"/>
-<circle x="0" y="0" radius="2.54" width="0" layer="30"/>
-</package>
 <package name="1X16_2MM">
 <wire x1="-16.32" y1="0.635" x2="-16.32" y2="-0.635" width="0.2032" layer="51"/>
 <pad name="1" x="-15" y="0" drill="0.8" diameter="1.27"/>
@@ -681,21 +629,6 @@ round, layers 1 + 16 + 21 + 39 + 49</description>
 <rectangle x1="-19.304" y1="-0.254" x2="-18.796" y2="0.254" layer="51"/>
 <rectangle x1="18.796" y1="-0.254" x2="19.304" y2="0.254" layer="51"/>
 </package>
-<package name="FIDUCIAL_0.5MM">
-<smd name="1" x="0" y="0" dx="0.5" dy="0.5" layer="1" roundness="100" cream="no"/>
-<wire x1="-0.475" y1="0" x2="0" y2="0.475" width="0.25" layer="29" curve="-90"/>
-<wire x1="0" y1="0.475" x2="0.475" y2="-0.025" width="0.25" layer="29" curve="-90"/>
-<wire x1="0.475" y1="-0.025" x2="0" y2="-0.475" width="0.25" layer="29" curve="-90"/>
-<wire x1="0" y1="-0.475" x2="-0.475" y2="0" width="0.25" layer="29" curve="-90"/>
-<wire x1="-0.475" y1="0" x2="0" y2="0.475" width="0.25" layer="41" curve="-90"/>
-<wire x1="0" y1="0.475" x2="0.475" y2="-0.025" width="0.25" layer="41" curve="-90"/>
-<wire x1="0.475" y1="-0.025" x2="0" y2="-0.475" width="0.25" layer="41" curve="-90"/>
-<wire x1="0" y1="-0.475" x2="-0.475" y2="0" width="0.25" layer="41" curve="-90"/>
-<wire x1="-0.475" y1="0" x2="0" y2="0.475" width="0.25" layer="39" curve="-90"/>
-<wire x1="0" y1="0.475" x2="0.475" y2="-0.025" width="0.25" layer="39" curve="-90"/>
-<wire x1="0.475" y1="-0.025" x2="0" y2="-0.475" width="0.25" layer="39" curve="-90"/>
-<wire x1="0" y1="-0.475" x2="-0.475" y2="0" width="0.25" layer="39" curve="-90"/>
-</package>
 </packages>
 <symbols>
 <symbol name="FRAME_A4">
@@ -808,11 +741,6 @@ round, layers 1 + 16 + 21 + 39 + 49</description>
 <pin name="14" x="-2.54" y="-15.24" visible="pad" length="short" direction="pas" function="dot"/>
 <pin name="15" x="-2.54" y="-17.78" visible="pad" length="short" direction="pas" function="dot"/>
 <pin name="16" x="-2.54" y="-20.32" visible="pad" length="short" direction="pas" function="dot"/>
-</symbol>
-<symbol name="FIDUCIAL">
-<wire x1="-0.762" y1="0.762" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
-<wire x1="0.762" y1="0.762" x2="-0.762" y2="-0.762" width="0.254" layer="94"/>
-<circle x="0" y="0" radius="1.27" width="0.254" layer="94"/>
 </symbol>
 <symbol name="PINHD12">
 <wire x1="-6.35" y1="-15.24" x2="1.27" y2="-15.24" width="0.4064" layer="94"/>
@@ -1088,41 +1016,6 @@ DIN A4, landscape with location and doc. field</description>
 <connect gate="A" pin="8" pad="8"/>
 <connect gate="A" pin="9" pad="9"/>
 </connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="FIDUCIAL" prefix="FID">
-<description>&lt;b&gt;Fiducial Alignment Points&lt;/b&gt;
-&lt;p&gt;Various fiducial points for machine vision alignment.&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="FIDUCIAL" x="0" y="0"/>
-</gates>
-<devices>
-<device name="1X2.5" package="FIDUCIAL-1X2.5">
-<technologies>
-<technology name="">
-<attribute name="BOM" value="EXCLUDE" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="ROUND" package="PASS-ROUND">
-<technologies>
-<technology name="">
-<attribute name="BOM" value="EXCLUDE" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_1MM" package="FIDUCIAL_1MM">
-<technologies>
-<technology name="">
-<attribute name="BOM" value="EXCLUDE" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_0.5MM" package="FIDUCIAL_0.5MM">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -5797,8 +5690,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="FRAME1" library="microbuilder" deviceset="FRAME_A4" device="">
 <attribute name="YEAR" value=""/>
 </part>
-<part name="U$34" library="microbuilder" deviceset="FIDUCIAL" device="_1MM"/>
-<part name="U$35" library="microbuilder" deviceset="FIDUCIAL" device="_1MM"/>
 <part name="U$31" library="microbuilder" deviceset="MOUNTINGHOLE" device="2.5"/>
 <part name="U$32" library="microbuilder" deviceset="MOUNTINGHOLE" device="2.5"/>
 <part name="U$19" library="microbuilder" deviceset="VBUS" device=""/>
@@ -5826,6 +5717,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
+<part name="R_DUMMY_PR1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="0k ohm"/>
+<part name="R_DUMMY_PR2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="0k ohm"/>
 </parts>
 <sheets>
 <sheet>
@@ -5842,8 +5735,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <attribute name="REV" x="248.6152" y="21.2598" size="3.81" layer="94" ratio="12"/>
 <attribute name="YEAR" x="247.0277" y="33.0073" size="1.778" layer="94" ratio="12"/>
 </instance>
-<instance part="U$34" gate="G$1" x="231.14" y="25.4" smashed="yes"/>
-<instance part="U$35" gate="G$1" x="228.6" y="25.4" smashed="yes"/>
 <instance part="U$31" gate="G$1" x="236.22" y="25.4" smashed="yes"/>
 <instance part="U$32" gate="G$1" x="241.3" y="25.4" smashed="yes"/>
 <instance part="U$19" gate="G$1" x="152.4" y="78.74" smashed="yes">
@@ -5923,13 +5814,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <attribute name="NAME" x="135.89" y="42.1386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="135.89" y="37.338" size="1.778" layer="96"/>
 </instance>
-<instance part="R6_PR2" gate="G$1" x="96.52" y="88.9" smashed="yes">
-<attribute name="NAME" x="92.71" y="90.3986" size="1.778" layer="95"/>
-<attribute name="VALUE" x="92.71" y="85.598" size="1.778" layer="96"/>
+<instance part="R6_PR2" gate="G$1" x="91.44" y="88.9" smashed="yes">
+<attribute name="NAME" x="87.63" y="90.3986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="87.63" y="85.598" size="1.778" layer="96"/>
 </instance>
-<instance part="R5_PR1" gate="G$1" x="96.52" y="101.6" smashed="yes">
-<attribute name="NAME" x="92.71" y="103.0986" size="1.778" layer="95"/>
-<attribute name="VALUE" x="92.71" y="98.298" size="1.778" layer="96"/>
+<instance part="R5_PR1" gate="G$1" x="91.44" y="101.6" smashed="yes">
+<attribute name="NAME" x="87.63" y="103.0986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="87.63" y="98.298" size="1.778" layer="96"/>
 </instance>
 <instance part="R3_BTN2_PULLDOWN" gate="G$1" x="139.7" y="48.26" smashed="yes">
 <attribute name="NAME" x="135.89" y="49.7586" size="1.778" layer="95"/>
@@ -5960,6 +5851,14 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <instance part="GND7" gate="1" x="154.94" y="53.34" smashed="yes">
 <attribute name="VALUE" x="152.4" y="50.8" size="1.778" layer="96"/>
 </instance>
+<instance part="R_DUMMY_PR1" gate="G$1" x="101.6" y="101.6" smashed="yes">
+<attribute name="NAME" x="97.79" y="103.0986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="97.79" y="98.298" size="1.778" layer="96"/>
+</instance>
+<instance part="R_DUMMY_PR2" gate="G$1" x="101.6" y="88.9" smashed="yes">
+<attribute name="NAME" x="97.79" y="90.3986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="97.79" y="85.598" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -5978,15 +5877,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </segment>
 <segment>
 <pinref part="R5_PR1" gate="G$1" pin="1"/>
-<wire x1="91.44" y1="101.6" x2="83.82" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="83.82" y1="101.6" x2="83.82" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="101.6" x2="83.82" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R6_PR2" gate="G$1" pin="1"/>
 <pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="91.44" y1="88.9" x2="83.82" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="88.9" x2="83.82" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="88.9" x2="83.82" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R2_BTN1_PULLDOWN" gate="G$1" pin="2"/>
@@ -6239,16 +6136,26 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="R5_PR1" gate="G$1" pin="2"/>
 <pinref part="PR1_(LUMINOSITY)" gate="-2" pin="S"/>
-<wire x1="101.6" y1="101.6" x2="106.68" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="R_DUMMY_PR1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="PR2_(LUMINOSITY)" gate="-2" pin="S"/>
+<pinref part="R_DUMMY_PR2" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="R5_PR1" gate="G$1" pin="2"/>
+<pinref part="R_DUMMY_PR1" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
 <pinref part="R6_PR2" gate="G$1" pin="2"/>
-<wire x1="106.68" y1="88.9" x2="101.6" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="R_DUMMY_PR2" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>

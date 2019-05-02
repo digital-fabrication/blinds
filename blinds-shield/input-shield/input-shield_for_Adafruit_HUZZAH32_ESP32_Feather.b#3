@@ -28,7 +28,7 @@
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="14" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="13" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="14" fill="1" visible="no" active="yes"/>
@@ -269,6 +269,21 @@
 <rectangle x1="-16.764" y1="-0.254" x2="-16.256" y2="0.254" layer="51"/>
 <rectangle x1="-19.304" y1="-0.254" x2="-18.796" y2="0.254" layer="51"/>
 <rectangle x1="18.796" y1="-0.254" x2="19.304" y2="0.254" layer="51"/>
+</package>
+<package name="FIDUCIAL_1MM">
+<smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
+<wire x1="-0.75" y1="0" x2="0" y2="0.75" width="0.5" layer="29" curve="-90"/>
+<wire x1="0" y1="0.75" x2="0.75" y2="0" width="0.5" layer="29" curve="-90"/>
+<wire x1="0.75" y1="0" x2="0" y2="-0.75" width="0.5" layer="29" curve="-90"/>
+<wire x1="0" y1="-0.75" x2="-0.75" y2="0" width="0.5" layer="29" curve="-90"/>
+<wire x1="-0.75" y1="0" x2="0" y2="0.75" width="0.5" layer="41" curve="-90"/>
+<wire x1="0" y1="0.75" x2="0.75" y2="0" width="0.5" layer="41" curve="-90"/>
+<wire x1="0.75" y1="0" x2="0" y2="-0.75" width="0.5" layer="41" curve="-90"/>
+<wire x1="0" y1="-0.75" x2="-0.75" y2="0" width="0.5" layer="41" curve="-90"/>
+<wire x1="-0.75" y1="0" x2="0" y2="0.75" width="0.5" layer="39" curve="-90"/>
+<wire x1="0" y1="0.75" x2="0.75" y2="0" width="0.5" layer="39" curve="-90"/>
+<wire x1="0.75" y1="0" x2="0" y2="-0.75" width="0.5" layer="39" curve="-90"/>
+<wire x1="0" y1="-0.75" x2="-0.75" y2="0" width="0.5" layer="39" curve="-90"/>
 </package>
 <package name="1X12_ROUND_MIN">
 <wire x1="-15.24" y1="0.635" x2="-15.24" y2="-0.635" width="0.2032" layer="51"/>
@@ -1621,6 +1636,12 @@ einem neuen Namen ab.</description>
 </pass>
 </autorouter>
 <elements>
+<element name="U$34" library="microbuilder" package="FIDUCIAL_1MM" value="FIDUCIAL_1MM" x="11.43" y="21.082" smashed="yes" rot="R270">
+<attribute name="BOM" value="EXCLUDE" x="11.43" y="21.082" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="U$35" library="microbuilder" package="FIDUCIAL_1MM" value="FIDUCIAL_1MM" x="49.9582" y="3.309" smashed="yes" rot="R270">
+<attribute name="BOM" value="EXCLUDE" x="49.9582" y="3.309" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
 <element name="U$31" library="microbuilder" package="MOUNTINGHOLE_2.5_PLATED" value="MOUNTINGHOLE2.5" x="2.54" y="20.32" smashed="yes" rot="R270">
 <attribute name="BOM" value="EXCLUDE" x="2.54" y="20.32" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
