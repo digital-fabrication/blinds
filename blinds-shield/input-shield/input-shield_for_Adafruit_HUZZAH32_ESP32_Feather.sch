@@ -5758,13 +5758,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <instance part="U$6" gate="G$1" x="215.9" y="91.44" smashed="yes">
 <attribute name="VALUE" x="214.376" y="92.456" size="1.27" layer="96"/>
 </instance>
-<instance part="BTN1_(CLOCKWIZE)" gate="-1" x="114.3" y="63.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="101.6" y="64.262" size="1.524" layer="95" rot="R180"/>
-<attribute name="VALUE" x="112.522" y="64.643" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="BTN1_(CLOCKWIZE)" gate="-2" x="193.04" y="104.14" smashed="yes" rot="R90">
+<instance part="BTN1_(CLOCKWIZE)" gate="-1" x="193.04" y="104.14" smashed="yes" rot="R90">
 <attribute name="NAME" x="193.802" y="106.68" size="1.524" layer="95" rot="R90"/>
 <attribute name="VALUE" x="191.643" y="103.378" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="BTN1_(CLOCKWIZE)" gate="-2" x="114.3" y="63.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="101.6" y="64.262" size="1.524" layer="95" rot="R180"/>
+<attribute name="VALUE" x="112.522" y="64.643" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="BTN2_(AUTOMAGIC)" gate="-1" x="198.12" y="104.14" smashed="yes" rot="R90">
 <attribute name="NAME" x="198.882" y="106.68" size="1.524" layer="95" rot="R90"/>
@@ -5790,13 +5790,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <attribute name="NAME" x="59.182" y="99.06" size="1.524" layer="95" rot="R90"/>
 <attribute name="VALUE" x="57.023" y="95.758" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="PR1_(LUMINOSITY)" gate="-1" x="218.44" y="132.08" smashed="yes" rot="R270">
-<attribute name="NAME" x="217.678" y="129.54" size="1.524" layer="95" rot="R270"/>
-<attribute name="VALUE" x="219.837" y="132.842" size="1.778" layer="96" rot="R270"/>
+<instance part="PR1_(LUMINOSITY)" gate="-1" x="114.3" y="101.6" smashed="yes">
+<attribute name="NAME" x="116.84" y="100.838" size="1.524" layer="95"/>
+<attribute name="VALUE" x="113.538" y="102.997" size="1.778" layer="96"/>
 </instance>
-<instance part="PR1_(LUMINOSITY)" gate="-2" x="109.22" y="101.6" smashed="yes">
-<attribute name="NAME" x="111.76" y="100.838" size="1.524" layer="95"/>
-<attribute name="VALUE" x="108.458" y="102.997" size="1.778" layer="96"/>
+<instance part="PR1_(LUMINOSITY)" gate="-2" x="218.44" y="129.54" smashed="yes" rot="R270">
+<attribute name="NAME" x="217.678" y="127" size="1.524" layer="95" rot="R270"/>
+<attribute name="VALUE" x="219.837" y="130.302" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="PR2_(LUMINOSITY)" gate="-1" x="233.68" y="132.08" smashed="yes" rot="R270">
 <attribute name="NAME" x="232.918" y="129.54" size="1.524" layer="95" rot="R270"/>
@@ -5927,23 +5927,23 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="203.2" y1="83.82" x2="203.2" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="83.82" x2="198.12" y2="83.82" width="0.1524" layer="91"/>
 <junction x="203.2" y="83.82"/>
-<wire x1="198.12" y1="83.82" x2="193.04" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="BTN2_(AUTOMAGIC)" gate="-1" pin="S"/>
 <wire x1="198.12" y1="101.6" x2="198.12" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="83.82" x2="193.04" y2="83.82" width="0.1524" layer="91"/>
 <junction x="198.12" y="83.82"/>
-<pinref part="BTN1_(CLOCKWIZE)" gate="-2" pin="S"/>
-<wire x1="193.04" y1="101.6" x2="193.04" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="BTN1_(CLOCKWIZE)" gate="-1" pin="S"/>
+<wire x1="193.04" y1="83.82" x2="193.04" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="3.3V"/>
 <wire x1="226.06" y1="144.78" x2="226.06" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="139.7" x2="218.44" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="139.7" x2="218.44" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="139.7" x2="233.68" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="139.7" x2="233.68" y2="134.62" width="0.1524" layer="91"/>
 <junction x="226.06" y="139.7"/>
 <pinref part="PR2_(LUMINOSITY)" gate="-1" pin="S"/>
-<pinref part="PR1_(LUMINOSITY)" gate="-1" pin="S"/>
+<pinref part="PR1_(LUMINOSITY)" gate="-2" pin="S"/>
+<wire x1="218.44" y1="139.7" x2="218.44" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RESET" class="0">
@@ -5963,15 +5963,31 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <net name="A1_DAC1" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="11"/>
-<wire x1="236.22" y1="73.66" x2="215.9" y2="73.66" width="0.1524" layer="91"/>
 <label x="215.9" y="73.66" size="1.778" layer="95"/>
+<wire x1="236.22" y1="73.66" x2="187.96" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="73.66" x2="187.96" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="93.98" x2="106.68" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="PR2_(LUMINOSITY)" gate="-2" pin="S"/>
+<pinref part="R_DUMMY_PR2" gate="G$1" pin="2"/>
+<wire x1="106.68" y1="93.98" x2="106.68" y2="88.9" width="0.1524" layer="91"/>
+<junction x="106.68" y="88.9"/>
 </segment>
 </net>
 <net name="A0_DAC2" class="0">
 <segment>
-<wire x1="236.22" y1="76.2" x2="215.9" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="12"/>
 <label x="215.9" y="76.2" size="1.778" layer="95"/>
+<wire x1="236.22" y1="76.2" x2="190.5" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="76.2" x2="190.5" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="101.6" x2="149.86" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="101.6" x2="149.86" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="109.22" x2="109.22" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="PR1_(LUMINOSITY)" gate="-1" pin="S"/>
+<pinref part="R_DUMMY_PR1" gate="G$1" pin="2"/>
+<wire x1="111.76" y1="101.6" x2="109.22" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="101.6" x2="106.68" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="109.22" x2="109.22" y2="101.6" width="0.1524" layer="91"/>
+<junction x="109.22" y="101.6"/>
 </segment>
 </net>
 <net name="IO16" class="0">
@@ -6119,12 +6135,12 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="182.88" y1="63.5" x2="127" y2="63.5" width="0.1524" layer="91"/>
 <label x="160.02" y="63.5" size="1.778" layer="95"/>
 <pinref part="JP3" gate="G$1" pin="8"/>
-<pinref part="BTN1_(CLOCKWIZE)" gate="-1" pin="S"/>
-<wire x1="127" y1="63.5" x2="116.84" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="127" y1="63.5" x2="127" y2="48.26" width="0.1524" layer="91"/>
-<junction x="127" y="63.5"/>
 <pinref part="R3_BTN2_PULLDOWN" gate="G$1" pin="1"/>
 <wire x1="127" y1="48.26" x2="134.62" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="BTN1_(CLOCKWIZE)" gate="-2" pin="S"/>
+<wire x1="116.84" y1="63.5" x2="127" y2="63.5" width="0.1524" layer="91"/>
+<junction x="127" y="63.5"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -6132,18 +6148,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="LED_(AUTOMAGIC)" gate="-1" pin="S"/>
 <pinref part="R1_AUTOMAGIC_BTN_LED" gate="G$1" pin="1"/>
 <wire x1="86.36" y1="71.12" x2="91.44" y2="71.12" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="PR1_(LUMINOSITY)" gate="-2" pin="S"/>
-<pinref part="R_DUMMY_PR1" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="PR2_(LUMINOSITY)" gate="-2" pin="S"/>
-<pinref part="R_DUMMY_PR2" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$4" class="0">

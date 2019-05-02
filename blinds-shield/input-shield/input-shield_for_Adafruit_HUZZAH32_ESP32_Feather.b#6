@@ -1915,13 +1915,13 @@ einem neuen Namen ab.</description>
 <wire x1="6.4008" y1="10.3124" x2="8.3566" y2="10.3124" width="0.1524" layer="1"/>
 <wire x1="6.4008" y1="10.3124" x2="6.35" y2="10.2395" width="0.1524" layer="1"/>
 <contactref element="R_DUMMY_PR1" pad="2"/>
-<wire x1="8.89" y1="12.827" x2="6.35" y2="10.2395" width="0" layer="19" extent="1-1"/>
+<wire x1="8.3566" y1="10.3124" x2="8.89" y2="12.827" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="PR2_(LUMINOSITY)" pad="2"/>
 <wire x1="6.4008" y1="6.223" x2="6.35" y2="6.239" width="0.1524" layer="1"/>
 <contactref element="R_DUMMY_PR2" pad="2"/>
-<wire x1="6.35" y1="6.239" x2="8.89" y2="7.874" width="0" layer="19" extent="1-1"/>
+<wire x1="6.4008" y1="6.223" x2="8.89" y2="7.874" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$4">
 <contactref element="R5_PR1" pad="2"/>
