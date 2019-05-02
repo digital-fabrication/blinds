@@ -25,7 +25,7 @@
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
@@ -155,18 +155,18 @@
 </layers>
 <board>
 <plain>
-<wire x1="2.54" y1="0" x2="48.26" y2="0" width="1.016" layer="20"/>
-<wire x1="48.26" y1="0" x2="50.8" y2="2.54" width="1.016" layer="20" curve="90"/>
-<wire x1="50.8" y1="2.54" x2="50.8" y2="20.32" width="1.016" layer="20"/>
-<wire x1="50.8" y1="20.32" x2="48.26" y2="22.86" width="1.016" layer="20" curve="90"/>
-<wire x1="48.26" y1="22.86" x2="2.54" y2="22.86" width="1.016" layer="20"/>
-<wire x1="2.54" y1="22.86" x2="0" y2="20.32" width="1.016" layer="20" curve="90"/>
-<wire x1="0" y1="20.32" x2="0" y2="13.97" width="1.016" layer="20"/>
-<wire x1="0" y1="13.97" x2="0.508" y2="13.462" width="1.016" layer="20"/>
-<wire x1="0.508" y1="13.462" x2="0.508" y2="9.398" width="1.016" layer="20"/>
-<wire x1="0.508" y1="9.398" x2="0" y2="8.89" width="1.016" layer="20"/>
-<wire x1="0" y1="8.89" x2="0" y2="2.54" width="1.016" layer="20"/>
-<wire x1="0" y1="2.54" x2="2.54" y2="0" width="1.016" layer="20" curve="90"/>
+<wire x1="1.4605" y1="-1.0795" x2="48.4505" y2="-1.0795" width="1.016" layer="20"/>
+<wire x1="48.4505" y1="-1.0795" x2="51.2445" y2="2.413" width="1.016" layer="20" curve="90"/>
+<wire x1="51.2445" y1="2.413" x2="51.2445" y2="20.193" width="1.016" layer="20"/>
+<wire x1="51.2445" y1="20.193" x2="48.4505" y2="23.876" width="1.016" layer="20" curve="90"/>
+<wire x1="48.4505" y1="23.876" x2="1.4605" y2="23.876" width="1.016" layer="20"/>
+<wire x1="1.4605" y1="23.876" x2="-1.27" y2="20.32" width="1.016" layer="20" curve="90"/>
+<wire x1="-1.27" y1="20.32" x2="-1.27" y2="13.97" width="1.016" layer="20"/>
+<wire x1="-1.27" y1="13.97" x2="-0.762" y2="13.462" width="1.016" layer="20"/>
+<wire x1="-0.762" y1="13.462" x2="-0.762" y2="9.398" width="1.016" layer="20"/>
+<wire x1="-0.762" y1="9.398" x2="-1.27" y2="8.89" width="1.016" layer="20"/>
+<wire x1="-1.27" y1="8.89" x2="-1.27" y2="2.54" width="1.016" layer="20"/>
+<wire x1="-1.27" y1="2.54" x2="1.4605" y2="-1.0795" width="1.016" layer="20" curve="90"/>
 <text x="21.717" y="20.193" size="1.016" layer="21" ratio="12" align="center">USB</text>
 <text x="6.35" y="2.921" size="1.016" layer="21" ratio="12" rot="R180" align="center">RST</text>
 <text x="11.557" y="2.794" size="1.016" layer="21" ratio="12" rot="R180" align="center">NC</text>
